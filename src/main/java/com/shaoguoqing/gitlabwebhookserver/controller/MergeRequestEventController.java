@@ -80,7 +80,7 @@ public class MergeRequestEventController {
         }
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmm");
-        String tag = projectName + "_v_" + simpleDateFormat.format(new Date());
+        String tag = projectName + "_tag_v_" + simpleDateFormat.format(new Date());
 
         RestTemplate restTemplate = new RestTemplate();
 
